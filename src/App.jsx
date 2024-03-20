@@ -61,7 +61,7 @@ function App() {
       setTargetValue((baseValue * conversionRate).toFixed(DEFAULT_TO_FIXED));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [conversionRate]);
 
   return (
     <>
